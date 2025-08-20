@@ -1,0 +1,7 @@
+:root{--radius:1.25rem}
+body{background:#f8f9fa}
+.shadow-soft{box-shadow:0 .5rem 1rem rgba(0,0,0,.08)}
+.rounded-2xl{border-radius:var(--radius)}
+.hero{background:linear-gradient(180deg,#ffffff 0%,#f4f6f8 100%)}
+.post-card img{object-fit:cover;height:180px}
+a{text-decoration:none}
