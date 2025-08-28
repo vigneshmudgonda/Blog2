@@ -1,6 +1,6 @@
-// src/pages/YoutubeVideos.js
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { Helmet } from "react-helmet";
 
 const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
 
@@ -17,6 +17,14 @@ export default function YoutubeVideos() {
 
   return (
     <div className="container mt-5">
+      <Helmet>
+        <title>Latest YouTube Videos | Unique Tech</title>
+        <meta
+          name="description"
+          content="Watch the latest YouTube videos from Unique Tech. Stay updated with tutorials, tips, and guides on technology, coding, and productivity."
+        />
+      </Helmet>
+
       <h2>Latest YouTube Videos</h2>
       <div className="row">
         {videos.map((video) => (

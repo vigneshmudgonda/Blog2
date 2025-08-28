@@ -1,0 +1,7 @@
+blog-mern/backend/config.env
+
+node_modules/
+.cache/
+dist/
+build/
+*.log
