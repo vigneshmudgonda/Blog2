@@ -1,1 +1,6 @@
 blog-mern/backend/config.env
+node_modules/
+build/
+dist/
+.cache/
+.env
