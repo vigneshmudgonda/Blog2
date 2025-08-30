@@ -13,6 +13,8 @@ module.exports = {
 
     // ⚡ Optional: Add 2–3 actual blog detail pages manually (like /blog/123 or /blog/my-first-post)
   ],
+  "ignore": ["/admin", "/login"]
+
   puppeteerArgs: ["--no-sandbox", "--disable-setuid-sandbox"],
   source: "build",
   destination: "build",
