@@ -1,5 +1,5 @@
 module.exports = {
-  crawl: false, // don’t auto-crawl
+  crawl: false, // don't auto-crawl
   include: [
     "/",                 // homepage
     "/about",            // About page
@@ -8,15 +8,15 @@ module.exports = {
     "/reviews",          // Reviews page
     "/privacy-policy",   // Privacy Policy
     "/terms",            // Terms & Conditions
-    "/disclaimer"        // Disclaimer
-    
+    "/disclaimer",       // Disclaimer
 
     // ⚡ Optional: Add 2–3 actual blog detail pages manually (like /blog/123 or /blog/my-first-post)
   ],
-  "ignore": ["/admin", "/login"]
+  ignore: ["/admin", "/login"],
 
   puppeteerArgs: ["--no-sandbox", "--disable-setuid-sandbox"],
+
   source: "build",
-  destination: "build",
+  destination: "build"
 };
 
