@@ -30,13 +30,12 @@
     "/",
     "/about",
     "/contact",
-    "/blog",
     "/reviews",
     "/privacy-policy",
     "/terms",
     "/disclaimer"
   ],
-  "ignore": ["/admin", "/login"],
+   "ignore": ["/admin", "/login", "/blog"],
   "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
   "source": "build",
   "destination": "build"
