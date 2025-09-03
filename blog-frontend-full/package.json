@@ -25,8 +25,23 @@
     "eject": "react-scripts eject"
   },
   "reactSnap": {
-    "inlineCss": true
-  },
+  "crawl": false,
+  "include": [
+    "/",
+    "/about",
+    "/contact",
+    "/blog",
+    "/reviews",
+    "/privacy-policy",
+    "/terms",
+    "/disclaimer"
+  ],
+  "ignore": ["/admin", "/login"],
+  "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+  "source": "build",
+  "destination": "build"
+},
+
   "browserslist": {
     "production": [
       ">0.2%",
