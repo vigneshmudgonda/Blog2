@@ -40,6 +40,11 @@
   "source": "build",
   "destination": "build"
 },
+"reactSnap": {
+  "inlineCss": true,
+  "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+  "skip": ["/reviews"]
+},
 
   "browserslist": {
     "production": [
