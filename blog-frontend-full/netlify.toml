@@ -2,7 +2,7 @@
   command = "npm run build"
   publish = "build"
 [[headers]]
-  for = "/sitemap.xml"
+  for = "/sitemap.xml.txt"
   [headers.values]
     Content-Type = "application/xml; charset=utf-8"
 
