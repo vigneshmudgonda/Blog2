@@ -19,33 +19,24 @@
   },
   "scripts": {
     "start": "react-scripts start",
-  "build": "node sitemap-generator.js && react-scripts build",
+    "build": "node sitemap-generator.js && react-scripts build",
     "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "reactSnap": {
-  "crawl": false,
-  "include": [
-    "/",
-    "/about",
-    "/contact",
-    "/reviews",
-    "/privacy-policy",
-    "/terms",
-    "/disclaimer"
-  ],
-   "ignore": ["/admin", "/login", "/blog"],
-  "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
-  "source": "build",
-  "destination": "build"
-},
-"reactSnap": {
-  "inlineCss": true,
-  "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
-  "skip": ["/reviews"]
-},
-
+    "crawl": false,
+    "include": [
+      "/", "/about", "/contact", "/reviews",
+      "/privacy-policy", "/terms", "/disclaimer"
+    ],
+    "skip": ["/login", "/signup", "/dashboard", "/blog", "/admin"],
+    "inlineCss": true,
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+    "timeout": 60000,
+    "source": "build",
+    "destination": "build"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
