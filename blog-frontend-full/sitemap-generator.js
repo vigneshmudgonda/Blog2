@@ -8,17 +8,15 @@ const baseUrl = "https://uniquetech03.netlify.app";
 const pages = [
   "",                    // Home page
   "/about",              // About Us page
-  "/contact",            // Contact page
-  "/services",           // Services or Features page
-  "/projects",           // Projects / Portfolio page
+  "/contact",            // Contact page          // Projects / Portfolio page
   "/blog",               // Blog listing page
-  "/blog/web-development-trends", // Example blog post (add more below)
-  "/blog/how-to-build-mern-app",
-  "/login",              // Login page
-  "/signup",             // Signup / Register page
-  "/dashboard",          // User dashboard (if applicable)
-  "/privacy-policy",     // Legal pages
-  "/terms-and-conditions"
+  "terms",
+  "disclaimer",
+  "Privacy-Policy",
+  "reviews",
+  
+  
+  
 ];
 
 const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
