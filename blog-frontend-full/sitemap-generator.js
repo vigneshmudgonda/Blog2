@@ -10,10 +10,10 @@ const pages = [
   "/about",              // About Us page
   "/contact",            // Contact page          // Projects / Portfolio page
   "/blog",               // Blog listing page
-  "terms",
-  "disclaimer",
-  "Privacy-Policy",
-  "reviews",
+  "/terms",
+  "/disclaimer",
+  "/Privacy-Policy",
+  "/reviews",
   
   
   
